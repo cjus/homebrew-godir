@@ -1,8 +1,8 @@
 class Godir < Formula
   desc "A fuzzy directory navigation tool for command line Ninjas"
   homepage "https://github.com/cjus/godir"
-  url "https://github.com/cjus/godir/archive/refs/tags/v0.1.5.tar.gz"  # Updated version
-  sha256 "8e36af66203d6ac039c57e102ced5918172efd4a8047bb66d023d758db648a43"  # Will need new SHA256 for v0.1.5
+  url "https://github.com/cjus/godir/archive/refs/tags/v0.1.6.tar.gz"  # Updated version
+  sha256 "cd63207d06cfaae165935132277b7288052fe6a04959bea2447ddfcdd9289289"  # Will need new SHA256
   license "MIT"
 
   depends_on "rust" => :build
